@@ -74,3 +74,7 @@ Models are evaluated with COCO "val2017" data.
    | yolov4-csp-512 (FP16)   |         0.436         |        0.630       |     4.26    |
    | yolov4x-mish-320 (FP16) |         0.400         |        0.581       |     4.79    |
    | yolov4x-mish-640 (FP16) |         0.470         |        0.668       |     1.46    |
+
+   ## Example  
+
+![](example.gif)

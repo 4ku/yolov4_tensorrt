@@ -20,7 +20,7 @@ try:
     ctypes.cdll.LoadLibrary(os.path.join(cur_dir, "yolo_layer", "libyolo_layer.so"))
 except OSError as e:
     raise SystemExit('ERROR: failed to load {}/yolo_layer/libyolo_layer.so.  '
-                     'Did you forget to do a "make" in the "yolo_layer/" '
+                     'Did you forget to do a "make" in the "trt_yolo/yolo_layer/" '
                      'subdirectory?'.format(cur_dir)) from e
 
 
