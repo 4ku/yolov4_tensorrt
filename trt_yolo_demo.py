@@ -18,7 +18,7 @@ def parse_args():
             'real-time object detection with TensorRT optimized '
             'YOLO model on Jetson')
     parser = argparse.ArgumentParser(description=desc)
-    parser.add_argument("--input", type=str, default="traffic.mp4",
+    parser.add_argument("--input", type=str, default="data/traffic.mp4",
                         help="video source.")
     parser.add_argument("--trt_weights", default="prepared_models/yolov4.trt",
                         help="yolo weights path")

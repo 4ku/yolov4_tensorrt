@@ -77,4 +77,4 @@ Models are evaluated with COCO "val2017" data.
 
    ## Example  
 
-![](example.gif)
+![](data/example.gif)
